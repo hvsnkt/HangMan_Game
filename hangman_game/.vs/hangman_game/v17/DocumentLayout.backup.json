@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|solutionrelative:hangman_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|solutionrelative:hangman_game\\randomWord.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBB6B19B-018F-40A2-B9C3-6F25014F31A3}|hangman_game\\hangman_game.vcxproj|solutionrelative:hangman_game\\randomWord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 324,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "randomWord.h",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.h",
+              "RelativeDocumentMoniker": "hangman_game\\randomWord.h",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.h",
+              "RelativeToolTip": "hangman_game\\randomWord.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T21:41:58.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "randomWord.cpp",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.cpp",
+              "RelativeDocumentMoniker": "hangman_game\\randomWord.cpp",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\randomWord.cpp",
+              "RelativeToolTip": "hangman_game\\randomWord.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T21:41:44.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\main.cpp",
+              "RelativeDocumentMoniker": "hangman_game\\main.cpp",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\proekt\\HangMan_Game\\hangman_game\\hangman_game\\main.cpp",
+              "RelativeToolTip": "hangman_game\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T21:31:06.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 55,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

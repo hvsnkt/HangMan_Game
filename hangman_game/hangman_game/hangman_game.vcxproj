@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hangman_game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="randomWord.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="randomWord.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
