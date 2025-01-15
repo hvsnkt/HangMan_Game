@@ -2,31 +2,36 @@
 #include <iostream>
 #include <vector>
 #include <cstdlib>
-std::string randomWord() {
-    int choice;
-    cin >> choice;
-    switch (choice) {
+extern const char* theme;
+std::string randomWord(std::string choose) {
+    int int_choose = stoi(choose);
+    switch (int_choose) {
     case 1: {
+        theme = "Фрукты";
         std::vector<std::string> fruits = { "яблоко", "банан", "помело", "виноград", "апельсин", "груша", "авокадо", "гранат", "ананас", "лайм", "нектарин", "персик", "слива", "абрикос", "грейпфрут", "лимон", "манго", "хурма", "фейхоа", "киви", "личи", "мандарин" };
         int index = rand() % fruits.size();
         return fruits[index];
     }
     case 2: {
+        theme = "Страны";
         std::vector<std::string> colors = { "Австралия", "Австрия", "Аргентина", "Бельгия", "Беларусь", "Бразилия", "Ватикан", "Вьетнам", "Греция", "Грузия", "Германия", "Дания", "Египет", "Индия", "Испания", "Италия", "Китай", "Корея", "Литва", "Мадагаскар", "Мальдивы", "Польша", "Россия","Сомали", "Таиланд", "Франция", "Чехия", "Швейцария", "Япония" };
         int index = rand() % colors.size();
         return colors[index];
     }
     case 3: {
+        theme = "Виды спорта";
         std::vector<std::string> colors = { "Акробатика", "Баскетбол", "Биатлон", "Бильярд", "Волейбол", "Гандбол", "Дзюдо", "Сумо", "Теннис", "Триатлон", "Фехтование", "Футбол", "Хоккей", "Шахматы", "Бокс", "Гольф", "Кёрлинг", "Сёрфинг" };
         int index = rand() % colors.size();
         return colors[index];
     }
     case 4: {
+        theme = "Кулинарные блюда";
         std::vector<std::string> colors = { "Бифштекс", "Брускетта", "Жюльен", "Крокеты", "Тарталетка", "Бизе", "Штрудель", "Клёцки", "Онигири", "Ризотто", "Лазания", "Бешбармак", "Курник", "Тартар", "Карпаччо", "Хинкали", "Фондю", "Цезарь" };
         int index = rand() % colors.size();
         return colors[index];
     }
     case 5: {
+        theme = "Цветы";
         std::vector<std::string> colors = { "роза", "пион", "ирис", "тюльпан", "гвоздика", "астра", "лилия", "ландыш", "гладиолус", "нарцисс", "колокольчик", "ромашка", "георгина", "незабудка", "лаванда", "гартензия", "бархатцы", "мак" };
         int index = rand() % colors.size();
         return colors[index];

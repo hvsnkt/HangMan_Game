@@ -129,8 +129,10 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="randomWord.cpp" />
+    <ClCompile Include="hangmanGame.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hangmanGame.h" />
     <ClInclude Include="randomWord.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
