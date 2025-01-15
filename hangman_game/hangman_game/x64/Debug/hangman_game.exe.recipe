@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Nikita\Desktop\proekt\HangMan_Game\hangman_game\x64\Debug\hangman_game.exe</FullPath>
+      <FullPath>C:\project\HangMan_Game\hangman_game\x64\Debug\hangman_game.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

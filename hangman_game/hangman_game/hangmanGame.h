@@ -24,6 +24,7 @@ private:
     bool alr_guessed(char letter);
     bool upd_word(char letter);
     void statistics();
+    void drawHangman(int attemptsLeft);
     string getWordTheme(); 
 };
 

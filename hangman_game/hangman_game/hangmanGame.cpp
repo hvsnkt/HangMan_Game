@@ -39,6 +39,7 @@ void HangmanGame::play(const char* theme) {
                 else {
                     cout << "Неправильно." << endl;
                     attemptsLeft--;
+                    drawHangman(attemptsLeft);
                 }
             }
         }
@@ -78,7 +79,106 @@ void HangmanGame::statistics() {
     }
     cout << endl;
 }
+void HangmanGame::drawHangman(int attemptsLeft) {
+    if (attemptsLeft == 5) {
+        cout << "        )       " << endl;
+        cout << "       ((         " << endl;
+        cout << "       ) \\" << endl;
+        cout << "      ( , )" << endl;
+        cout << "       _|" << endl;
+        cout << "    ( _ - )" << endl;
+        cout << "     )/(/( |" << endl;
+        cout << "     () )()| " << endl;
+        cout << "     | ()  " << endl;
+        cout << "     |..... " << endl;
+        cout << "     |.....() " << endl;
+        cout << "     |.....| " << endl;
+        cout << "     |.....|" << endl;
+        cout << "    _||___|| " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
+    }
+    else if (attemptsLeft == 4) {
+        cout << "                " << endl;
+        cout << "      " << endl;
+        cout << "      " << endl;
+        cout << "       _|" << endl;
+        cout << "    ( _ - )" << endl;
+        cout << "     )/(/( |" << endl;
+        cout << "     () )()| " << endl;
+        cout << "     | () || " << endl;
+        cout << "     |.....|| " << endl;
+        cout << "     |.....() " << endl;
+        cout << "     |.....| " << endl;
+        cout << "     |.....|" << endl;
+        cout << "    _||___|| " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
 
+    }
+    else if (attemptsLeft == 3) {
+        cout << "       " << endl;
+        cout << "     " << endl;
+        cout << "     " << endl;
+        cout << "    ( _" << endl;
+        cout << "     )/(/" << endl;
+        cout << "     () )()" << endl;
+        cout << "     | ()  " << endl;
+        cout << "     |..... " << endl;
+        cout << "     |.....() " << endl;
+        cout << "     |.....| " << endl;
+        cout << "     |.....|" << endl;
+        cout << "    _||___|| " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
+
+    }
+    else if (attemptsLeft == 2) {
+        cout << "      " << endl;
+        cout << "      " << endl;
+        cout << "    " << endl;
+        cout << "     " << endl;
+        cout << "         ()| " << endl;
+        cout << "         ) || " << endl;
+        cout << "     |.....|| " << endl;
+        cout << "     |.....() " << endl;
+        cout << "    ().....| " << endl;
+        cout << "     |.....|" << endl;
+        cout << "    _||___|| " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
+
+    }
+    else if (attemptsLeft == 1) {
+        cout << "      " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "     " << endl;
+        cout << "     " << endl;
+        cout << "      " << endl;
+        cout << "     |.. " << endl;
+        cout << "     |... " << endl;
+        cout << "     |.....|" << endl;
+        cout << "    _||___||__ " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
+
+    }
+    else if (attemptsLeft == 0) {
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "    " << endl;
+        cout << "(________.....___)" << endl;
+        cout << "   \\___....._/ " << endl;
+
+    }
+}
 
 
 string HangmanGame::getWordTheme() {
